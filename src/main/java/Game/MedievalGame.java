@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MedievalGame {
 
   /* Instance Variables */
-
+  Player player;
   /* Main Method */
   public static void main(String[] args) {
     
