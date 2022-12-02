@@ -1,3 +1,5 @@
+package Game;
+
 public class Armour {
 
   /* Class Variables */

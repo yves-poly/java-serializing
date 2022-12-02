@@ -1,3 +1,5 @@
+package Game;
+
 public class Helmet extends Armour {
 
   /* Class Variables */

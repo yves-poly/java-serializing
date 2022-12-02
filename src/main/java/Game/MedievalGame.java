@@ -1,5 +1,6 @@
+package Game;
+
 import java.util.Scanner;
-import java.util.Objects;
 
 public class MedievalGame {
 

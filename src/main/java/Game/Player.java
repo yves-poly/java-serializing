@@ -1,3 +1,5 @@
+package Game;
+
 public class Player {
 
   /* Class Variables */
@@ -102,7 +104,7 @@ public class Player {
 
   @Override
   public String toString() {
-    return "\nCurrent Player: \n" +
+    return "\nCurrent Game.Player: \n" +
         "Name: " + name + "\n" +
         "Health: " + getHealth() + "\n" +
         getCurrentWeapon() +
