@@ -1,9 +1,11 @@
 package Game;
 
-public class Armour {
+import java.io.Serializable;
+
+public class Armour implements Serializable {
 
   /* Class Variables */
-
+  private final static Long serialVersionUID = 1L;
   
   /* Instance Variables */
   private final String name;
@@ -42,4 +44,6 @@ public class Armour {
   public String toString() {
     return name + ", Defense Rating: " + defenseRating + "\n";
   }
+
+  /* Serializable implementation */
 }
