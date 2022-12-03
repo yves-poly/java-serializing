@@ -1,9 +1,11 @@
 package Game;
 
-public class Weapon {
+import java.io.Serializable;
+
+public class Weapon implements Serializable {
 
   /* Class Variables */
-  
+  private final static Long serialVersionUID = 6L;
 
   /* Instance Variables */
   private final String name;
