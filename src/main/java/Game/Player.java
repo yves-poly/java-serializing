@@ -1,9 +1,11 @@
 package Game;
 
-public class Player {
+import java.io.Serializable;
+
+public class Player implements Serializable {
 
   /* Class Variables */
-  
+  private final static Long serialVersionUID = 3L;
 
   /* Instance Variables */
   private final String name;
@@ -114,4 +116,6 @@ public class Player {
         "   Trousers: " + trouser +
         "   Shoes: " + shoe;
   }
+
+  /* Serializable implementation */
 }
